@@ -15,11 +15,8 @@ permissions:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: /home/runner/work/Search-Movie-Director
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
